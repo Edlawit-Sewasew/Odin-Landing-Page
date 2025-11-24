@@ -54,3 +54,46 @@ h1{
 img{
     margin-left: 350px;
 }
+
+.second-box{
+background-color: white;
+height:300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+h2{
+   font-size: 26px;
+    color:#1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    
+    border-radius: 8px;
+    border:4px solid #3882f6;
+    width: 100px;
+    height:100px;
+    display: flex;
+    margin: 10px;
+
+}
+#boxes{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.paragraph{
+    text-align: center;
+}
+
+      
