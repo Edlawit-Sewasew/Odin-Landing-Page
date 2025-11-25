@@ -96,4 +96,100 @@ h2{
     text-align: center;
 }
 
-      
+ .third-box{
+    background-color: #e5e7eb;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+ }  
+ #quote,#author{
+    margin:0;
+ }   
+ #quote{
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+ }
+ #author{
+    font-weight: bold;
+    display:flex;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 0;
+    padding-top: 0;
+    
+   
+ }
+ .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+ }
+ .fourth-text{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+ }
+ #blue-box{
+    background-color: #3882f6;
+    height:130px;
+    width:1000px;
+    display:flex;
+    margin: 80px;
+    margin-left: 250px;
+    border-radius: 8px;
+    justify-items: space-around;
+
+
+ }
+ .left-text{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    justify-items: center;
+   
+
+ }
+ #button{
+   height: 28px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+ }
+ .right-button{
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    padding-left: 250px;
+ }
+ #text1{
+    margin-bottom:0 ;
+    font-weight: bold;
+ }
+ #text2{
+    margin-top: 0;
+ }
+ .footer{
+    height:80px;
+    background-color: #1F2937;
+ }
+ #Copyright{
+    color: #e5e7eb;
+    text-align: center;
+    padding-top: 35px;
+ }
